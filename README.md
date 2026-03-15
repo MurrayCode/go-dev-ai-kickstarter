@@ -22,21 +22,6 @@ Then open:
 
 - `http://localhost:8080/hello`
 
-## Development workflow
-
-```bash
-go fmt ./...
-go test ./...
-```
-
-Or with make:
-
-```bash
-make fmt
-make test
-make check
-```
-
 ## Project structure
 
 - `cmd/app/`: service entrypoint and startup wiring
