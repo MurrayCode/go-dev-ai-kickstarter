@@ -1,0 +1,14 @@
+# Go build outputs
+/bin/
+/dist/
+
+# Test artifacts
+*.out
+coverage.txt
+
+# IDE/editor
+.idea/
+.vscode/
+
+# OS files
+.DS_Store

@@ -1,0 +1,22 @@
+openapi: 3.0.3
+info:
+  title: Example Project API
+  version: 0.1.0
+  description: Minimal API contract for the hello-world endpoint.
+servers:
+  - url: http://localhost:8080
+paths:
+  /hello:
+    get:
+      summary: Return hello world message
+      operationId: getHello
+      responses:
+        "200":
+          description: Successful hello-world response
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: "hello, world\n"
+        "405":
+          description: Method not allowed
