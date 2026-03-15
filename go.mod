@@ -1,3 +1,3 @@
-module example.com/example-project
+module github.com/murraycode/go-dev-ai-kickstarter
 
 go 1.22

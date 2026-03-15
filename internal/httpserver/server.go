@@ -3,7 +3,7 @@ package httpserver
 import (
 	"net/http"
 
-	"example.com/example-project/internal/app"
+	"github.com/murraycode/go-dev-ai-kickstarter/internal/app"
 )
 
 func NewMux() http.Handler {

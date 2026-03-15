@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"example.com/example-project/internal/httpserver"
+	"github.com/murraycode/go-dev-ai-kickstarter/internal/httpserver"
 )
 
 func main() {
